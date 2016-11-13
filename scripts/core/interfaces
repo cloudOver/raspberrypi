@@ -1,0 +1,19 @@
+source-directory /etc/network/interfaces.d
+
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet manual
+
+allow-hotplug wlan0
+iface wlan0 inet static
+    address 192.168.26.254
+    netmask 255.255.255.0
+    dns-nameservers 8.8.8.8
+
+allow-hotplug eth1
+iface eth1 inet static
+    address 192.168.27.254
+    netmask 255.255.255.0
+    dns-nameservers 8.8.8.8
