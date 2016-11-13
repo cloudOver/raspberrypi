@@ -42,3 +42,5 @@ CoreUI interface should be available at the address:
 
 In case of problems feel free to contact us:
 	contact@cloudover.io
+or use our Google Group:
+	https://groups.google.com/forum/#!forum/cloudover-users
