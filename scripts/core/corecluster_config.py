@@ -43,7 +43,7 @@ USER_QUOTA = {
     'points': 2000,
     'public_lease': 2,
     'routed_lease': 128,
-    'network_isolated': 128,
+    'network_isolated': 16,
 }
 
 ENABLE_ALL_PERMISSIONS = True
