@@ -1,0 +1,5 @@
+Origin: . wheezy
+Label: . wheezy
+Architecture: i386
+Archive: wheezy
+Component: main

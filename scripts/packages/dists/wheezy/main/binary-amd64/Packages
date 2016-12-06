@@ -1,0 +1,293 @@
+Package: coretalk
+Version: 16.07.01
+Installed-Size: 154
+Priority: extra
+Section: contrib
+Maintainer: Maciej Nabozny <mn@mnabozny.pl>
+Architecture: all
+Description: CloudInit support for CoreCluster
+MD5sum: 05458807537da5434f87d9c37f1486bc
+SHA1: 2cff00a373c8b3d9d5b4a235021049779e5ae489
+SHA256: 13c012517c559fd1ca395ffa4dd3dc39e28c318a8b00b8fe7ee61936b8cf46c0
+Depends: corecluster, genisoimage
+Homepage: http://cloudover.org/
+Source: 
+Filename: pool/main/c/coretalk/coretalk_16.07.01_all.deb
+Size: 12840
+
+Package: corevpn
+Version: 16.09.01
+Installed-Size: 149
+Priority: extra
+Section: contrib
+Maintainer: Maciej Nabozny <mn@mnabozny.pl>
+Architecture: all
+Description: VPN based networking for OverCluster-core
+MD5sum: 6a1ee24cb4a36fa291ba2f03f833e704
+SHA1: 3e7e907a9683bcdf3171c38ed16304023f89fa8a
+SHA256: 5d67c7688ecb61a3085f23073cea858ee6ffcb4acc97bfb2773bdd0a52f5748c
+Source: 
+Filename: pool/main/c/corevpn/corevpn_16.09.01_all.deb
+Size: 12472
+Depends: corecluster, openvpn, openssl
+Homepage: http://cloudover.org/coredav/
+
+Package: corecluster
+Version: 16.10.08
+Installed-Size: 1079
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Core package of OverCluster
+ This package contains core components to run basic version of OverCluster.
+MD5sum: f4d3c04ec15dbeffe1634c4743372e4b
+SHA1: 1b9d8533dd6b27203a98c2841e80f2288febe244
+SHA256: d2760f968fb9e9aa0efb632b9be3959926bb3347a2ae359d79a6b9a7a1630445
+Homepage: http://cloudover.org/corecluster/
+Source: 
+Filename: pool/main/c/corecluster/corecluster_16.10.08_all.deb
+Size: 139090
+Conflicts: overcluster-core
+Depends: corenetwork, corosync, libvirt-bin, nfs-common, nginx-extras, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, redis-server, qemu-utils, sqlite3, sudo, uwsgi, uwsgi-plugin-python
+
+Package: coredhcp
+Version: 16.10.01
+Installed-Size: 83
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <marta.nabozny@cloudover.io>
+Architecture: all
+Description: DHCP support for isolated networks in CoreCluster
+ This package includes dhcp tools for CoreCLuster's isolated networking
+MD5sum: 443b05419ad8874966927231bffc3262
+SHA1: 6033bc85bd9fe21c17b7920e2db4fb26336799b7
+SHA256: e3a3ee01f617cd18f7e545162c51c9be42b2c4456b68a6889b6816bc70ff64f7
+Homepage: http://cloudover.org/corecluster/
+Source: 
+Filename: pool/main/c/coredhcp/coredhcp_16.10.01_all.deb
+Size: 6964
+Depends: corecluster, dnsmasq
+
+Package: corenetwork
+Version: 16.10.04
+Installed-Size: 301
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Networking package for CoreCluster
+ This package includes all drivers necessary to CoreCluster proper work
+MD5sum: 65239ecdc7a3bf5058776a70225c6dbe
+SHA1: 8b778b6db163eb81cf93ca9d642d3d7ea32e5f29
+SHA256: b7b513f8ff624072e0af5a97a03db9de1b3c4f4a3ee7331e9601e0c0c230af77
+Source: 
+Filename: pool/main/c/corenetwork/corenetwork_16.10.04_all.deb
+Size: 42120
+Conflicts: overcluster-network
+Depends: avahi-daemon, avahi-discover, avahi-utils, corosync, libvirt-bin, nfs-common, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, qemu-utils, sudo
+Homepage: http://cloudover.org/corecluster/
+
+Package: corevpn
+Version: 16.06.01
+Installed-Size: 149
+Priority: extra
+Section: contrib
+Maintainer: Maciej Nabozny <mn@mnabozny.pl>
+Architecture: all
+Description: VPN based networking for OverCluster-core
+MD5sum: 242bcc89a3ee04ef2468b06fc1fdaff6
+SHA1: 80eb3b2d524a0fb9d7d8b50b07767e003e558cbc
+SHA256: 1f6d7c5bb1a57392a1af2af5330a9c4b0f2196445be4bd03de16eeadfd147175
+Source: 
+Filename: pool/main/c/corevpn/corevpn_16.06.01_all.deb
+Size: 12428
+Depends: corecluster, openvpn, openssl
+Homepage: http://cloudover.org/coredav/
+
+Package: corecluster
+Version: 16.10.07
+Installed-Size: 1079
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Core package of OverCluster
+ This package contains core components to run basic version of OverCluster.
+MD5sum: 915e698e598578d94479a7b1ddd663fd
+SHA1: 01feb2107548b89e061e55bf22851eaad86b68a6
+SHA256: c9d687493e53e728bb458dd6f7e73eb37635dc827872cc6490114edd2c10d3f7
+Conflicts: overcluster-core
+Source: 
+Filename: pool/main/c/corecluster/corecluster_16.10.07_all.deb
+Size: 139090
+Depends: corenetwork, corosync, libvirt-bin, nfs-common, nginx-extras, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, redis-server, qemu-utils, sqlite3, sudo, uwsgi, uwsgi-plugin-python
+Homepage: http://cloudover.org/corecluster/
+
+Package: corecluster
+Version: 16.10.10
+Installed-Size: 1083
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Core package of OverCluster
+ This package contains core components to run basic version of OverCluster.
+MD5sum: a51b0f1ad485e96c7167908c0c90d46f
+SHA1: f63e7e334092da949dfd0ae6e09353ea13009c9c
+SHA256: 523ff9c5e33bfedde24b816f6d1c6907c7ebe1b36f522e545a27e37eaf6f500b
+Homepage: http://cloudover.org/corecluster/
+Conflicts: overcluster-core
+Source: 
+Filename: pool/main/c/corecluster/corecluster_16.10.10_all.deb
+Size: 139672
+Depends: corenetwork, corosync, libvirt-bin, nfs-common, nginx-extras, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, redis-server, qemu-utils, sqlite3, sudo, uwsgi, uwsgi-plugin-python
+
+Package: coredhcp
+Version: 16.06.01
+Installed-Size: 83
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <marta.nabozny@cloudover.io>
+Architecture: all
+Description: DHCP support for isolated networks in CoreCluster
+ This package includes dhcp tools for CoreCLuster's isolated networking
+MD5sum: cf8948eb8c04e6c853b095058e6a1950
+SHA1: c1eab69a20478f374de57c8123479d0f6f2a2a02
+SHA256: 525762ede12fc556f427a534a2ece3e7cb20a6c4f8c1ae11e9d0393bc38eac08
+Source: 
+Filename: pool/main/c/coredhcp/coredhcp_16.06.01_all.deb
+Size: 6864
+Depends: corecluster, dnsmasq
+Homepage: http://cloudover.org/corecluster/
+
+Package: corenetwork
+Version: 16.10.03
+Installed-Size: 300
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Networking package for CoreCluster
+ This package includes all drivers necessary to CoreCluster proper work
+MD5sum: 9d52fb390957a28767eeef3af8176ed8
+SHA1: b4bce92c69742a0a6c1559753054f49c2f7d003c
+SHA256: 71b09465b73bc0748ba9071a67443d55aa541c2c50d52a8e755a34825c2cc64d
+Conflicts: overcluster-network
+Depends: avahi-daemon, avahi-discover, avahi-utils, corosync, libvirt-bin, nfs-common, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, qemu-utils, sudo
+Homepage: http://cloudover.org/corecluster/
+Source: 
+Filename: pool/main/c/corenetwork/corenetwork_16.10.03_all.deb
+Size: 41968
+
+Package: coretalk
+Version: 16.10.03
+Installed-Size: 154
+Priority: extra
+Section: contrib
+Maintainer: Maciej Nabozny <mn@mnabozny.pl>
+Architecture: all
+Description: CloudInit support for CoreCluster
+MD5sum: 528b850ca3773f968cf028645ff37fa8
+SHA1: 3b75400a8e33fe7d4402dadad9518d2fb9a7f9a1
+SHA256: a47ff13337132f38782ead827583573f366c8cfe8cc9fceca416d69f8cf011ce
+Source: 
+Filename: pool/main/c/coretalk/coretalk_16.10.03_all.deb
+Size: 12956
+Depends: corecluster, genisoimage
+Homepage: http://cloudover.org/
+
+Package: corecluster
+Version: 16.10.06
+Installed-Size: 1079
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Core package of OverCluster
+ This package contains core components to run basic version of OverCluster.
+MD5sum: 6d290b3b359a7a4db268e9d9b933f387
+SHA1: 81c8d6193e2c6fbf52b653b382794afe6214861c
+SHA256: 944942373922bbfbbb5fdffffa8ce3d0de3a211acdb044c8932de41b562f66da
+Conflicts: overcluster-core
+Source: 
+Filename: pool/main/c/corecluster/corecluster_16.10.06_all.deb
+Size: 138990
+Depends: corenetwork, corosync, libvirt-bin, nfs-common, nginx-extras, ntpdate, openssh-server, python-dev, python-libvirt, python-pip, quagga, redis-server, qemu-utils, sqlite3, sudo, uwsgi, uwsgi-plugin-python
+Homepage: http://cloudover.org/corecluster/
+
+Package: coredhcp
+Version: 16.09.01
+Installed-Size: 83
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <marta.nabozny@cloudover.io>
+Architecture: all
+Description: DHCP support for isolated networks in CoreCluster
+ This package includes dhcp tools for CoreCLuster's isolated networking
+MD5sum: 7414b14014395ab5fe6771fcfd4670a2
+SHA1: ace8ec368f073054a2158ef39f05d589ea10a320
+SHA256: 2847ce910e2dfd28610c4b7ec2017713cc33364df74777b626bc3f4aedc76aa4
+Homepage: http://cloudover.org/corecluster/
+Source: 
+Filename: pool/main/c/coredhcp/coredhcp_16.09.01_all.deb
+Size: 6944
+Depends: corecluster, dnsmasq
+
+Package: corenetwork
+Version: 16.11.01
+Installed-Size: 301
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Networking package for CoreCluster
+ This package includes all drivers necessary to CoreCluster proper work
+MD5sum: 031ebc912e740d65c920ac52e4623144
+SHA1: 394269bdcee6c4c4962bf3148666a0d0a0588cdc
+SHA256: ae8b9628ba55fa3b3777de87cebb3a9ef9c0fcddf2883b304b977529c4245bce
+Homepage: http://cloudover.org/corecluster/
+Source: 
+Filename: pool/main/c/corenetwork/corenetwork_16.11.01_all.deb
+Size: 42170
+Conflicts: overcluster-network
+Depends: avahi-daemon, avahi-discover, avahi-utils, corosync, libvirt-bin, nfs-common, ntpdate, openssh-server, python-dev, python-libvirt, python-setuptools, python-pip, quagga, qemu-utils, sudo
+
+Package: corenode
+Version: 16.09.11
+Installed-Size: 147
+Priority: extra
+Section: contrib
+Maintainer: Marta Nabozny <martastrzet@gmail.com>
+Architecture: all
+Description: Node configuration package
+ This package contains networking scripts to run CoreCluster cloud on
+ compute nodes.
+MD5sum: c993f33038516c46aca37a3cead74cf2
+SHA1: ace4ef1dc74aec58bbe278efd8e02202222af24e
+SHA256: 31adcf3ee2d7631e66efb393772431a54117e4ac861a05a29014e319d66d2f06
+Homepage: http://cloudover.org/overcluster/
+Suggests: tcpdump, ipython, traceroute
+Conflicts: overcluster-node
+Source: 
+Filename: pool/main/c/corenode/corenode_16.09.11_all.deb
+Size: 10130
+Depends: corenetwork, libvirt-bin, openssh-server, sudo, python-libvirt, python, qemu-kvm, kvm, quagga, python-requests, nfs-common, qemu-system
+
+Package: coretalk
+Version: 16.10.02
+Installed-Size: 154
+Priority: extra
+Section: contrib
+Maintainer: Maciej Nabozny <mn@mnabozny.pl>
+Architecture: all
+Description: CloudInit support for CoreCluster
+MD5sum: 369e67bee0688cb95d394caae973af92
+SHA1: d1ceb08879a0537b6031bc4f9cfcf27254ccfa4f
+SHA256: c339fff763ce80662076a999080f21f0ac127f2e8f4ce57d2ab05c7874c2e753
+Source: 
+Filename: pool/main/c/coretalk/coretalk_16.10.02_all.deb
+Size: 12932
+Depends: corecluster, genisoimage
+Homepage: http://cloudover.org/
+
