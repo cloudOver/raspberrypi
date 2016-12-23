@@ -1,5 +1,5 @@
 USE_AUTODISCOVER = True
-CORE_URL = "http://localhost:8001/"
+CORE_URL = ["http://localhost:8001/", ]
 INTERFACES = [
     {'iface':   'eth1',
      'cost':    100},

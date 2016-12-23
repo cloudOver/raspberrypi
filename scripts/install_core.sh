@@ -50,6 +50,7 @@ cp core/hostapd.conf /etc/hostapd/
 
 echo "CREATE DATABASE cloudover;" | mysql -u root -pcloudover
 echo "GRANT ALL PRIVILEGES ON cloudover.* TO cloudover@'localhost' IDENTIFIED BY '$MYSQL_DB_PASSWORD';" | mysql -u root -pcloudover
+echo "GRANT ALL PRIVILEGES ON cloudover.* TO cloudover_log@'localhost' IDENTIFIED BY '$MYSQL_LOG_PASSWORD';" | mysql -u root -pcloudover
 
 cc-admin migrate
 cc-admin makemigrations

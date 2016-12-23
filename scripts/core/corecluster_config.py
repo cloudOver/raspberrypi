@@ -1,15 +1,22 @@
 ALLOWED_HOSTS = ['*']
 
 DATABASES = {
-    'logs': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': '/var/lib/cloudOver/logs.sqlite3',
-    },
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'cloudover',
         'USER': 'cloudover',
         'PASSWORD': '_MYSQL_DB_PASSWORD',
+        'HOST': 'localhost',
+        'PORT': '3306',
+        'OPTIONS': {
+            "init_command": "SET NAMES utf8",
+        }
+    },
+    'logs': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cloudover',
+        'USER': 'cloudover',
+        'PASSWORD': '_MYSQL_LOG_PASSWORD',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {
